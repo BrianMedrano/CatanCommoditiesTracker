@@ -1,0 +1,17 @@
+ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    border: 1px dotted red; 
+    display: flex; 
+    flex-wrap: wrap; 
+}
+
+
+
+
+li{
+   border: 1px black solid; 
+   padding: 15px;
+   margin: 5px; 
+}
