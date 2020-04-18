@@ -11,7 +11,7 @@ class Commodity extends React.Component{
 
         return(
             <div> 
-                <li>{this.props.listItemKey}
+                <li>{this.props.commodityDescription}
                     <h4>Date: {this.props.commodityDate}</h4>
                     <h4>Price: ${this.props.commodityPrice}</h4>
                 </li>
